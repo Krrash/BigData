@@ -89,5 +89,9 @@ df2 = spark.createDataFrame(data, columns)
 df_joined = df.join(df2, on="id", how="inner")
 df_joined.show()
 
+
+print("hello world")
 # Stop Spark Session
 spark.stop()
+
+
